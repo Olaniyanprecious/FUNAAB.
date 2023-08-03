@@ -1,0 +1,753 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+html{
+    background-image: url(images\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: rgb(64, 129, 11); 
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    color: white;
+    border-bottom: 2px rgb(39, 78, 7) solid;
+}
+.headerimage{
+    height: 400px;
+    margin: -60px;
+    margin-bottom: -180px;
+    margin-left: 30px;
+}
+.headerdetails{
+    text-align: center;
+}
+.nav{
+    background-color:rgb(64, 129, 11);
+    border-bottom:1px hsla(0, 0%, 100%, 0.5) dotted;
+    padding-left: 170px;
+}
+.nav li{
+    display: inline-block;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.home{
+    background-color:rgb(36, 71, 6);
+    border-radius: 2px;
+    border: 1px hsla(0, 0%, 100%, 0.5) dotted;
+    border-bottom:1px hsla(0, 0%, 100%, 0.5) dotted ;
+    border-left: 1px hsla(0, 0%, 100%, 0.5) dotted;
+    border-color: 1px hsla(0, 0%, 100%, 0.5) dotted;
+    
+}
+.course{
+    background-color:rgb(97, 160, 42);
+    border-radius: 2px;
+}
+.result{
+    background-color:rgb(97, 160, 42);
+    border-radius: 2px;
+}
+.internet{
+    background-color:rgb(97, 160, 42);
+    border-radius: 2px;
+}
+.registration{
+    background-color:rgb(97, 160, 42);
+    border-radius: 2px;
+}
+.payment{
+    background-color:rgb(97, 160, 42);
+    border-radius: 2px;
+}
+.new{
+    color: rgb(255, 0, 0);
+    background-color: orange;
+    border-radius: 20px;
+    padding: 2px;
+    font-size: 10px;
+}
+.login{
+    float: right;
+    margin-right: 150px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: rgb(64, 129, 11); 
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.registrationBar{
+    color: aqua;
+    background-color: hsla(82, 39%, 30%, .6);
+    border-radius: 3px;
+    margin:70px 130px 0 180px ;
+}
+.registrationBar h2{
+    padding-bottom: 15px;
+}
+.registrationBar button{
+    background-color: rgb(22, 126, 160);
+    padding: 5px 10PX;
+    margin: 0 0 5px 10px;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.registrationBar button a{
+    text-decoration: none;
+    color: white;
+}
+.deadlineBar{
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: whitesmoke;
+    border: 2px lightblue solid;
+    border-radius: 10px;
+    margin: 15px 150px 0 190px ;
+}
+.deadlineBarDetails h3{
+    padding-bottom: 10px;
+    color: hsla(0, 0%, 0%, .7);
+}
+.deadlineBarDetails p{
+    font-size: 13px;
+}
+.red{
+    color: red;
+}
+.scheduleBar{
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: whitesmoke;
+    border: 2px lightblue solid;
+    border-radius: 10px;
+    margin: 15px 150px 30px 190px ;
+}
+.scheduleBar h3{
+    padding-bottom: 10px;
+    color: hsla(0, 0%, 0%, .7);
+}
+.scheduleBar p{
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+.images{
+    background-color: hsla(82, 39%, 30%, .4);
+    margin-left: 180px;
+    margin-right: 155px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lineOne{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+}
+.freshStudent{
+    background-image: url(form3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.freshStudent h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab;
+}
+.freshStudent p{
+    font-size: 12px;
+    color: olivedrab;
+}
+.matriculationOath{
+    background-image: url(form3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.matriculationOath h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab;
+}
+.matriculationOath p{
+    font-size: 12px;
+    color: olivedrab ;
+}
+.FreshStudent{
+    background-image: url(print.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.FreshStudent h3 {
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.FreshStudent p {
+    font-size: 12px;
+    color: olivedrab 
+}
+.virtualClass{
+    background-image: url(getMail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.virtualClass h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.virtualClass{
+    font-size: 12px;
+    color: olivedrab
+}
+.courseRegistration{
+    background-image: url(courses.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.courseRegistration h3 {
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.courseRegistration p {
+    font-size: 12px;
+    color: olivedrab
+}
+.examinationPass {
+    background-image: url(courses.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.examinationPass h3 {
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.examinationPass p{
+    font-size: 12px;
+    color: olivedrab
+}
+.courseregistration{
+    background-image: url(rectification.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.courseregistration h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.courseregistration p{
+    font-size: 12px;
+    color: olivedrab
+}
+.addOrDeleteForm{
+    background-image: url(correction.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.addOrDeleteForm h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.addOrDeleteForm p{
+    font-size: 12px;
+    color: olivedrab
+}
+.changeOfCourse{
+    background-image: url(changeofcourse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.changeOfCourse h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.changeOfCourse p{
+    font-size: 12px;
+    color: olivedrab
+}
+.schoolFess{
+    background-image: url(invoice.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.schoolFess h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.schoolFess p{
+    font-size: 12px;
+    color: olivedrab
+}
+.eLearningForum{
+    background-image: url(forum.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 100px;
+    padding-left: 5px;
+}
+.eLearningForum h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.eLearningForum p{
+    font-size: 12px;
+    color: olivedrab
+}
+.resetPassword{
+    background-image: url(reset3.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.resetPassword h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.resetPassword p{
+    font-size: 12px;
+    color: olivedrab
+}
+.receipt{ 
+    background-image: url(receipt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.receipt h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.receipt p{
+    font-size: 12px;
+    color: olivedrab
+}
+.hostelAccomodation{
+    background-image: url(accomodation2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.hostelAccomodation h3 {
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.hostelAccomodation p {
+    font-size: 12px;
+    color: olivedrab
+}
+.portalLogin{
+    background-image: url(loginScreen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.portalLogin h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.portalLogin p{
+    font-size: 12px;
+    color: olivedrab
+}
+.resultChecker{
+    background-image: url(form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 100px;
+    padding-left: 5px;
+}
+.resultChecker h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.resultChecker p{
+    font-size: 12px;
+    color: olivedrab
+}
+.checkMailbox{
+    background-image: url(mails.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 240px;
+    padding-left: 5px;
+}
+.checkMailbox h3 {
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.checkMailbox p{
+    font-size: 12px;
+    color: olivedrab
+}
+.lectureNotes{
+    background-image: url(coursenotes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 100px;
+    padding-left: 5px;
+}
+.lectureNotes h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.lectureNotes p{
+    font-size: 12px;
+    color: olivedrab
+}
+.nimbeLibrary{
+    background-image: url(eresources.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 100px;
+    padding-left: 5px;
+}
+.nimbeLibrary h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.nimbeLibrary p{
+    font-size: 12px;
+    color: olivedrab
+}
+.interact{
+    background-image: url(interact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 100px;
+    padding-left: 5px;
+}
+.interact h3{
+    font-size: 18px;
+    padding-top: 55px;
+    color: olivedrab
+}
+.interact p{
+    font-size: 12px;
+    color: olivedrab
+}
+.imagesFooter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.footer li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.footer li a{
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+}
+@media(max-width: 500px){
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(64, 129, 11); 
+    color: white;
+    border-bottom: 5px rgb(39, 78, 7) solid;
+    justify-content: center;
+}
+.headerimage{
+    display: none;  
+}
+.headerdetails{
+    text-align: center;
+    padding-top: -20px;
+}
+.nav{
+    background-color:rgb(64, 129, 11);
+    border-bottom:2px hwb(0 100% 0% / 0.5) dotted;
+    padding: 10px 20px;
+}
+.nav li{
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    margin-right: 1px;
+}
+.registrationBar{
+    border-radius: 3px;
+    margin:50px 0px 0px 0px ;
+}
+.deadlineBar{
+    padding-left: 30px;
+    margin: 15px 10px 0 10px ;
+}
+.deadlineBarDetails h3{
+    font-size: 20px;
+}
+.scheduleBar{
+    padding-left: 30px;
+    border-radius: 10px;
+    margin: 15px 10px 30px 10px ;
+}
+.scheduleBar h3{
+    padding-bottom: 10px;
+    color: hsla(0, 0%, 0%, .7);
+}
+.scheduleBar p{
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+.lineOne{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.images{
+    margin-left: 0px;
+    margin-right: 155px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 100%;
+}
+.interact{
+    width: 260px;
+    height: 110px;
+}
+.interact h3{
+    padding-top: 65px;
+}
+.nimbeLibrary{ 
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.nimbeLibrary h3{
+    padding-top: 65px;
+}
+.lectureNotes {
+    width: 260px;
+    margin-bottom: 10px;   
+    height: 110px;
+}
+.lectureNotes h3{
+    padding-top: 65px;
+}
+.checkMailbox{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.checkMailbox h3{
+    padding-top: 65px;
+}
+.resultChecker{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.resultChecker h3{
+    padding-top: 65px;
+}
+.portalLogin{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.portalLogin h3{
+    padding-top: 65px;
+}
+.hostelAccomodation{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.hostelAccomodation h3{
+    padding-top: 65px;
+}
+.receipt{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.receipt h3{
+    padding-top: 65px;
+}
+.resetPassword{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.resetPassword h3{
+    padding-top: 65px;
+}
+.eLearningForum{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.eLearningForum h3{
+    padding-top: 65px;
+}
+.schoolFess{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.schoolFess h3{
+    padding-top: 65px;
+}
+.changeOfCourse{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.changeOfCourse h3{
+    padding-top: 65px;
+}
+.addOrDeleteForm{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.addOrDeleteForm h3{
+    padding-top: 65px;
+}
+.courseregistration{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.courseregistration h3{
+    padding-top: 65px;
+}
+.examinationPass{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.examinationPass h3{
+    padding-top: 65px;
+}
+.courseRegistration{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.courseRegistration h3{
+    padding-top: 65px;
+}
+.virtualClass{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.virtualClass h3{
+    padding-top: 65px;
+}
+.FreshStudent{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.FreshStudent h3{
+    padding-top: 65px;
+}
+.matriculationOath{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.matriculationOath h3{
+    padding-top: 65px;
+}
+.freshStudent{
+    width: 260px;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.freshStudent h3{
+    padding-top: 65px;
+}
+
+}
